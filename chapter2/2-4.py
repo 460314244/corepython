@@ -1,2 +1,2 @@
-a = raw_input("please input something:")
-print "you just inputed %s" % a
+a = raw_input("please input a number:")
+print "you just inputed %d" % int(a)
