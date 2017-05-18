@@ -8,3 +8,8 @@ while i<len(a):
         b=(float(s))/len(a)
         print b
     
+q=raw_input("Please input date...")
+if q <100:
+    break
+else:
+    q
