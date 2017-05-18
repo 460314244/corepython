@@ -8,10 +8,12 @@ while i<len(a):
         b=(float(s))/len(a)
         print b
     
-q=raw_input("Please input date...")
-while true:
-    
-    if q <100:
+
+while True:
+    q=int(raw_input("Please input date..."))
+    if q<100:
+        print 'ok'
         break
     else:
-        q
+        print 'you are worry..'
+        continue        
