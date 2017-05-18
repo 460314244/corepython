@@ -9,7 +9,9 @@ while i<len(a):
         print b
     
 q=raw_input("Please input date...")
-if q <100:
-    break
-else:
-    q
+while true:
+    
+    if q <100:
+        break
+    else:
+        q
