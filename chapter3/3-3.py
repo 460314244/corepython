@@ -15,5 +15,11 @@ while True:
         print 'ok'
         break
     else:
-        print 'you are worry..'
-        continue        
+        print 'Are you a pig..'
+        continue
+
+a=[1,2,3,4,5]
+s=0
+for i in a:
+    s=s+i
+    print s         
